@@ -1,0 +1,120 @@
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* header and menu */
+#ah-header {
+	position: absolute;
+	bottom: 40px;
+	z-index:10;
+	height: 110px;
+	line-height: 110px;
+	background: rgba(255,255,255,.9);
+	width: 100%;
+	border-bottom: 1px solid black;    
+	display: block;  
+	text-align: center;
+	-webkit-box-shadow: 0 4px 15px 0px black;
+    -moz-box-shadow: 0 4px 15px 0px black;
+    box-shadow: 0 4px 15px 0px black;
+}
+.ah-social-buttons {
+	color: #2E4971;
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	left: 70px;
+	bottom:30px;
+	line-height: 1px;
+}
+.ah-social-hover:hover {
+	font-size: 26px;
+}
+.ah-logo {
+	position: relative;
+	height: 70px;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ah-nav-down {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #636363;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	max-width: 60px;
+	right: 70px;
+	bottom:20px;
+	line-height:1px;
+}
+.ah-arrow-text {
+	width: 60px;
+	position:relative;
+	text-align: center;
+}
+.ah-arrow {
+	width: 60px;
+	text-align: center;
+	font-size: 40px;
+}
+
+/* background and body */
+.ah-body {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:2;
+}
+.ah-back-photo {
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.ah-body-text {
+	z-index: 4;
+	position: absolute;
+	top: 110px;
+	bottom: 0px;
+	left: 0px;
+	width: 60%;
+	margin-top: 40px;
+	margin-left: 30px;
+	font-family: 'Lato', sans-serif;
+	font-size: 29px;
+	color: white;
+
+}
+
+
+/*
+.ah-logo-div {
+	position: relative;
+	line-height: 120px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+*/
+/* map */
+#map-canvas {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	width:40%;
+	right: 0px;
+	z-index:3;
+	opacity: 1;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app='AHapp'>
+  <head>
+    <title>Atlanta Harvest</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+  </head>
+  <body ng-controller="MainCtrl">
+
+    <div id="ah-header">
+      <div class="ah-social-buttons">
+        <a href="http://facebook.com/atlantaharvest"><i class="icon-facebook ah-social-hover"></i></a>&nbsp&nbsp
+        <a href="http://twitter.com/atlharvest"><i class="icon-twitter ah-social-hover"></i></a>&nbsp&nbsp
+        <a href="http://instagram.com/atlharvest"><i class="icon-instagram ah-social-hover"></i></a>
+      </div>
+      <img src="img/logo.png" class="ah-logo"/>
+      <div class="ah-nav-down" onclick="arrowClick()">
+        <div id="arrow-text" class="ah-arrow-text">MORE</div>
+        <div class="ah-arrow"><i id="nav-arrow" class="icon-angle-down"></i></div>
+      </div>
+    </div>
+
+    <div ng-view class="view-container"></div>
+
+    <script src="js/jquery-2.0.3.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-resource.js"></script>
+    <script src="js/angular-animate.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+  </body>
+</html>
